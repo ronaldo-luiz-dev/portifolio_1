@@ -1,9 +1,12 @@
 ## ★ Portifólio 
-Portifolio com html, css e javascript. Que traz informaçoes de um desenvolvedor 
-assim como projetos front-end hospedados no github e githubpages. A Pagina utiliza
-a API do github para trzer as informaçoes do repositório em boxes clicaveis que 
-encaminha o visitante até o githubpages ou outro servidors,onde é mostrado as ppáginas
+Portifolio com html, css e javascript. 
+Este projeto frontEnd traz informaçoes de um desenvolvedor assim como projetos hospedados no github. 
+A Pagina utiliza a API do github para trazer as informaçoes do repositório em boxes clicaveis que 
+encaminha o visitante até o githubpages ou outro servidor web,onde é mostrado as páginas/trabalho
 relacionados aos repositórios.
+O projeto segue as dimensões de prototipagem de iterface gráfica definidos no figma proposto
+no desafio: 
+https://www.figma.com/file/haIwtrfl3P0q1tSAezATPC/DD-%2F-Portfolio-(Copy)?node-id=3%3A2&t=5iNcQklwzfognd33-0
 
 ## ⊕ Sobre este projeto
 Desenvolvido conforme o projeto proposto na Rocketseat.
@@ -16,6 +19,7 @@ Tecnologia Utilizadas.
 
 ## ☂ Services Used
 * Github 
+* * Figma
  
 ## ☂ Librarys 
 * axios

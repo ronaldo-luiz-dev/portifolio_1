@@ -1,4 +1,4 @@
-const url = 'https://api.github.com/users/Ronaldo-Oliveira99/repos'
+const url = 'https://api.github.com/users/ronaldo-luiz-dev/repos'
 
  fetch(url).then(function (response) {
 	// The API call was successful!
@@ -14,7 +14,9 @@ const url = 'https://api.github.com/users/Ronaldo-Oliveira99/repos'
         function limitText(limitField, limitNum) {
             if (limitField.length > limitNum) {
                 return limitField_p = limitField.substring(0, limitNum) + ' ...';
-            } 
+            }else{
+                return limitField
+            }
         }
 
 
@@ -22,7 +24,7 @@ const url = 'https://api.github.com/users/Ronaldo-Oliveira99/repos'
         {
     
             
-            if(!document.getElementById('timedrpact'+i) && data[i].homepage != null  && data[i].fork == false)
+            if(!document.getElementById('timedrpact'+i) && data[i].homepage != null )
             {
                 var div = document.createElement("div");
                 var div_title = document.createElement("div");
@@ -120,56 +122,8 @@ const url = 'https://api.github.com/users/Ronaldo-Oliveira99/repos'
 
 
         }
-
-
-
-        // const title_git = data[0].name
-        // const title = document.getElementById("teste")
-        // title.innerHTML = title_git;
-
-
-
-
-
+        
     }).catch(function (err) {
         // There was an error
         console.warn('Something went wrong.', err);
     });
-
-
-// const title = document.getElementById("teste")
-// title.innerHTML = title;
-// //alert(title[0].nodeName);
-//  console.log('title',title);
-
-
-
-
- const para = document.createElement("p");
- const node = document.createTextNode("This is new.");
- para.appendChild(node);
- 
- const element = document.getElementById("div1");
- element.appendChild(para);
-
-// const button = document.querySelector('#openModal');
-
-//     button.addEventListener('click', onChangeButton)
-//     button.addEventListener("keydown",onChangeButtonEsc) 
-
-
-//     function onChangeButtonEsc(event){
-//         console.log('event1')
-//         if (event.key ==="Escape") {
-//         // Realiza uma ação, talvez até a operação de 'desfazer'
-//         const takeOff = document.querySelector('.modal-wrapper')
-//         takeOff.classList.add('invisible');
-//         console.log('event')
-//         }
-//     }
-
-//     function onChangeButton(){
-//         const takeOff = document.querySelector('.modal-wrapper');
-//         takeOff.classList.remove('invisible');
-        
-//     }

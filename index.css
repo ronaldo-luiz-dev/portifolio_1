@@ -2,6 +2,7 @@
     --body-bg-color: #22212C;
     --text-color: #837E9F;
     --bg-cards: #302F3D;
+    --bg-cards_hover: #464553;
     --bg-techs: #CB92B1;
   }
 
@@ -226,7 +227,10 @@ aside > section{
     width: 27.10rem;
     padding: 1.87rem   
 }
-
+.box_repo:hover{
+background-color:var(--bg-cards_hover);
+transition: background-color 0.2s;
+}
 .box_repo h1{
     font-size: 16px;
     font-weight: 700;
